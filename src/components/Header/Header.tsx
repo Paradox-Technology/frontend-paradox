@@ -1,7 +1,8 @@
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import styles from "../Header/styles.module.scss"
 
-export function Header() {
+export function Header(props:any) {
+
   return (
     <div className={styles.container}>
       <div>
@@ -27,7 +28,9 @@ export function Header() {
       </div>
 
       <div className={styles.mode}>
-        <div className={styles.moonIcon}>
+        <div 
+        onClick={() => props.handleTheme()}
+        className={styles.moonIcon}>
           <DarkModeIcon fontSize="large"/>
         </div>
 

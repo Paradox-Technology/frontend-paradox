@@ -1,0 +1,21 @@
+.light {
+  .text {
+    color: var(--black);
+  }
+
+  .background {
+    background-color: var(--gray-100);
+  }
+
+}
+
+.dark {
+  .text {
+    color: var(--gray-100);
+  }
+
+  .background {
+    background-color: var(--gray-800);
+  }
+
+}
