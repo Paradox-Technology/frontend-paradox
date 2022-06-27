@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  background-color: var(--black);
+  align-items: center;
+  justify-content: space-between;
+  color: var(--gray-100);
+  padding: 10px 130px 10px 130px;
+  font: "Roboto";
+}
+
+.nav {
+  display: flex;
+  gap: 3.75rem;
+}
+
+.mode {
+  display: flex;
+  gap: 3.75rem;
+  align-items: center;
+}
+
+.moonIcon {
+  cursor: pointer;
+}
