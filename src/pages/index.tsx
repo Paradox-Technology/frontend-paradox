@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Header/>
-      <h1>Hello word!</h1>
+      <h1>Vai toma sua gostosa vai toma! lançou a da braba em</h1>
     </>
   )
 }
