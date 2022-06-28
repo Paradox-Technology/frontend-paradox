@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   
   return (
     <>
-      <Header handleTheme={handleTheme} />
+      <Header handleTheme={handleTheme} theme={theme} />
       <div className={theme}>
         <div className='background'>
         <h1 className='text'>Vai toma sua gostosa vai toma! lançou a da braba em</h1>
