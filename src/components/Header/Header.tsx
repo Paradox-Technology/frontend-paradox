@@ -4,8 +4,6 @@ import styles from "../Header/styles.module.scss"
 
 export function Header(props:any) {
 
-  console.log(props.theme)
-
   return (
     <div className={styles.container}>
       <div>

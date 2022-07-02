@@ -8,8 +8,6 @@ const Home: NextPage = () => {
   function handleTheme() {
     return setTheme(theme === "light" ? "dark" : "light")
   }
-
-  console.log(theme)
   
   return (
     <>
